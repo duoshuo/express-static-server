@@ -1,0 +1,12 @@
+#!/usr/bin/nodejs
+
+var express = require('express'),
+    morgan  = require('morgan');
+
+
+var app = new express();
+
+app.use(morgan('dev'));
+app.use(express.static(process.argv[2]));
+
+app.listen(process.env.PORT || 80);
