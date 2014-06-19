@@ -1,11 +1,13 @@
 {
   "name": "express-static-server",
-  "description": "",
+  "description": "a simple static server based on express",
   "version": "0.1.0",
   "homepage": "http://duoshuo.com",
-  "author": "tony",
-  "private": true,
-  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:duoshuo/express-static-server.git"
+  },
+  "author": "shen2",
   "dependencies": {
     "express":">=4.0.0",
     "morgan": "*"
